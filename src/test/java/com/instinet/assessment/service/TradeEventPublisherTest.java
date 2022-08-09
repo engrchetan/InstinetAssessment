@@ -5,7 +5,7 @@ import com.instinet.assessment.util.eventbus.WithEventBusPublisher;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static com.instinet.assessment.util.processor.TestDataUtil.SYM;
+import static com.instinet.assessment.service.processor.TestDataUtil.SYM;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 

@@ -1,4 +1,4 @@
-package com.instinet.assessment.util.processor;
+package com.instinet.assessment.service.processor;
 
 import com.instinet.assessment.domain.Trade;
 

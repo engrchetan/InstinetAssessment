@@ -2,9 +2,9 @@ package com.instinet.assessment.service;
 
 import com.instinet.assessment.domain.Trade;
 import com.instinet.assessment.util.eventbus.WithEventBusSubscriber;
-import com.instinet.assessment.util.processor.CountingFlagTradeProcessor;
-import com.instinet.assessment.util.processor.LargestTradeProcessor;
-import com.instinet.assessment.util.processor.VWAPTradeProcessor;
+import com.instinet.assessment.service.processor.CountingFlagTradeProcessor;
+import com.instinet.assessment.service.processor.LargestTradeProcessor;
+import com.instinet.assessment.service.processor.VWAPTradeProcessor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

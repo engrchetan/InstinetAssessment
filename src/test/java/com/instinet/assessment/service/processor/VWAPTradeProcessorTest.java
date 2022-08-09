@@ -1,4 +1,4 @@
-package com.instinet.assessment.util.processor;
+package com.instinet.assessment.service.processor;
 
 import com.instinet.assessment.domain.Trade;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,8 +8,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static com.instinet.assessment.util.processor.TestDataUtil.*;
-import static com.instinet.assessment.util.processor.TestDataUtil.SYM;
+import static com.instinet.assessment.service.processor.TestDataUtil.*;
+import static com.instinet.assessment.service.processor.TestDataUtil.SYM;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class VWAPTradeProcessorTest {
