@@ -11,6 +11,7 @@
 
 # OUTPUT
 
+<pre>
 03:32:13.819 [main] INFO  com.instinet.assessment.util.eventbus.EventBusImpl - Publishing event Trade{symbol='XYZ LN', timestamp=1481107485791, price=200.0, size=1000, flags=[A]}
 03:32:13.820 [main] INFO  com.instinet.assessment.util.eventbus.EventBusImpl - Notified 3 subscribers
 03:32:13.821 [pool-2-thread-1] INFO  com.instinet.assessment.service.TradeEventProcessorFactory - Largest Trade for XYZ LN found => 1000
@@ -33,3 +34,4 @@
 03:32:25.828 [main] INFO  com.instinet.assessment.util.eventbus.EventBusImpl - Notified 3 subscribers
 03:32:25.828 [pool-4-thread-1] INFO  com.instinet.assessment.service.TradeEventProcessorFactory - Count of trades with symbol:123 LN, flag:X => 3
 03:32:25.828 [pool-3-thread-1] INFO  com.instinet.assessment.service.TradeEventProcessorFactory - Current VWAP for 123 LN is => 98.42190560997328
+</pre>
